@@ -1,0 +1,253 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Apply For Capital One Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Workshop Registration</legend>
+        <div class="row">
+
+            <div class="col m9">
+                <div class="row">
+                    <div class="col m6">
+                        <div class="row">
+                            <div class="col m9">
+                                <div class="form-item v">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" name="firstName" pattern="\w+" required />
+                                </div>
+                            </div>
+
+                            <div class="col m3">
+                                <div class="form-item v">
+                                    <label for="mi">Mi</label>
+                                    <input type="text" id="mi" name="mi" pattern="(\w+)?" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col m6">
+                        <div class="form-item v">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" required pattern="\w+" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col m6">
+                        <div class="form-item v">
+                            <label for="dateOfBirth">Date of birth</label>
+                            <input type="date" id="dateOfBirth" name="dateOfBirth" required />
+                        </div>
+                    </div>
+
+                    <div class="col m6">
+                        <div class="form-item v">
+                            <label for="ssn">Social security number</label>
+                            <input type="number" id="ssn" name="ssn" required />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-item">
+                    <label>Are you a U.S citizen?</label>
+                    <label><input type="radio" name="isUS" value="yes" />Yes</label>
+                    <label><input type="radio" name="isUS" value="no" />No</label>
+                </div>
+            </div>
+
+            <!--<div class="col m3">
+                <img src="https://applynow.capitalone.com/images/venture/VentureCard_sm.png" alt="card" />
+            </div>-->
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Contact Information</legend>
+
+        <div class="row">
+            <div class="col m9">
+                <div class="form-item v">
+                    <label for="address">
+                        RESIDENTIAL ADDRESS <small>(No PO Boxes or CMRA)</small>
+                    </label>
+                    <input type="text" id="address" name="address" required />
+                </div>
+            </div>
+
+            <div class="col m3">
+                <div class="form-item v">
+                    <label for="suite">SUITE/APT. # <small>(if applicable)</small></label>
+                    <input type="text" id="suite" name="suite" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m6">
+                <div class="form-item v">
+                    <label for="email">EMAIL ADDRESS</label>
+                    <input type="email" id="email" name="email" required />
+                    <span class="disclaimer">
+              When you provide your email address, we may use it to send you
+              important information about your application and account(s), as
+              well as other useful products and services.
+            </span>
+                </div>
+            </div>
+
+            <div class="col m6">
+                <div class="form-item v">
+                    <label for="phone">PRIMARY PHONE NUMBER</label>
+                    <input type="number" id="phone" name="phone" required />
+                </div>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Financial Information</legend>
+
+        <div class="form-item v">
+            <label for="employmentStatus">Employment Status</label>
+            <select id="employmentStatus" name="employmentStatus">
+                <option value="" disabled selected>Select status</option>
+                <option>Employed</option>
+                <option>Self employeed</option>
+                <option>Retired</option>
+                <option>Student</option>
+                <option>Unemployeed</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col m6">
+                <div class="form-item v">
+                    <label for="annualIncome">TOTAL ANNUAL INCOME</label>
+                    <div class="currency-input">
+                        <span>$</span>
+                        <input type="number" id="annualIncome" name="annualIncome" required />
+                    </div>
+
+                    <span class="disclaimer">
+              Alimony, child support or separate maintenance income need not be
+              revealed if you do not choose to have it considered as a basis for
+              repaying this loan.
+            </span>
+                </div>
+            </div>
+
+            <div class="col m6">
+                <div class="form-item v">
+                    <label for="monthlyRent">MONTHLY RENT/MORTGAGE</label>
+                    <div class="currency-input">
+                        <span>$</span>
+                        <input type="number" id="monthlyRent" name="monthlyRent" required />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m6">
+                <div class="form-item v">
+                    <label for="bankAccount">DO YOU HAVE ANY BANK ACCOUNTS?</label>
+                    <select id="bankAccount" name="bankAccount">
+                        <option value="" disabled selected>Select a type</option>
+                        <option>Check and Savings</option>
+                        <option>Checking only</option>
+                        <option>Savings only</option>
+                        <option>Neither</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col m6">
+                <div class="form-item v">
+                    <label for="creditCardSpend">CREDIT CARD SPEND PER MONTH</label>
+                    <div class="currency-input">
+                        <span>$</span>
+                        <input type="number" id="creditCardSpend" name="creditCardSpend" required />
+                    </div>
+
+                    <span class="disclaimer">
+              Approximately how much do you spend using credit cards per month?
+            </span>
+                </div>
+            </div>
+        </div>
+        <div class="form-item v">
+            <label>
+                IF OFFERED, WOULD YOU BE INTERESTED IN BLANK CHECKS TO USE FOR
+                CASH ADVANCES?<small>(Optional)</small>
+            </label>
+            <label class="inline"><input type="radio" name="blankChecks" value="yes" />yes</label>
+            <label class="inline"><input type="radio" name="blankChecks" value="no" />no</label>
+        </div>
+
+        <div class="form-item v">
+            <label>
+                IF APPROVED, DO YOU PLAN TO TRANSFER ANY BALANCES FROM OTHER
+                NON-CAPITAL ONE CREDIT CARDS?<small>(Optional)</small>
+            </label>
+            <label class="inline"><input type="radio" name="transfer" value="yes" />yes</label>
+            <label class="inline"><input type="radio" name="transfer" value="no" />no</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Additional Information</legend>
+
+        <p>
+            We need your agreement to receive by electronic means only communications
+            regarding your application, including notice of our decision on your
+            application and important account opening information regarding rates,
+            fees and other costs related to the credit card for which you are applying.
+            Please review the terms of our
+            <a href="#">Electronic Communications Disclosure</a>.
+        </p>
+
+        <div class="form-item">
+            <label>
+                <input type="checkbox" name="agreement"/>
+                <strong>
+                    I have reviewed and agree to the terms of the Electronic
+                    Communications Disclosure. I confirm that I have an active email
+                    address and the ability to access, view and print PDF files.
+                </strong>
+            </label>
+        </div>
+
+        <div class="form-item v">
+            <label>
+                Some of our communications are available in both English and Spanish.
+                Which language would you prefer for future communications?
+            </label>
+            <div class="center">
+                <label class="inline"><input type="radio" name="blankChecks" value="yes" />yes</label>
+                <label class="inline"><input type="radio" name="blankChecks" value="no" />no</label>
+            </div>
+        </div>
+    </fieldset>
+
+    <input type="submit" value="Continue" />
+</form>
+
+<footer>
+    <a href="http://validator.w3.org/check/referer">
+        <img src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png" alt="Valid HTML" />
+    </a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png" alt="Valid CSS" />
+    </a>
+</footer>
+</body>
+</html>

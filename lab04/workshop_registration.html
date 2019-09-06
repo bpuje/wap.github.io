@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lab4.css">
+
+</head>
+<body>
+
+<h2>Workshop Registration</h2>
+<div class="row">
+    <div class="col-75">
+        <div class="container">
+            <form action="/action_page.php">
+
+                <div class="row">
+                    <div class="col-50">
+                        <h3><ins>Register now while seats are available!</ins></h3>
+                        <label for="fname"><i class="fa fa-user"></i> First Name<span class="colorStar">*</span></label>
+                        <input type="text" id="fname" name="firstname" placeholder="Purevdemberel">
+
+                        <label for="lname"><i class="fa fa-user"></i> Last Name<span class="colorStar">*</span></label>
+                        <input type="text" id="lname" name="email" placeholder="Byambatogtokh">
+
+                        <label for="company"><i class="fa fa-institution"></i> Company/Institute<span class="colorStar">*</span></label>
+                        <input type="text" id="company" name="email" placeholder="MUM">
+
+                        <label><i class="fa fa-institution"></i> Address<span class="colorStar">*</span></label>
+                        <!--<input type="text" id="adr" name="address" placeholder="542 W. 15th Street">-->
+                        <textarea type="text" id="adr" name="address" placeholder="2000 N Court STREET Trlr, 10H"></textarea><br><br>
+
+                        <label for="city"><i class="fa fa-institution"></i> City</label>
+                        <input type="text" id="city" name="city" placeholder="Fairfield">
+
+                        <label> <!--for="state"--><i class="fa fa-institution"></i> State/Province/Region</label>
+                        <select><option>-Select-</option></select><br><br>
+
+                        <label> <!--for="country">--><i class="fa fa-institution"></i> Country</label>
+                        <select><option>-Select-</option></select><br><br>
+
+                        <label for="email"><i class="fa fa-envelope"></i> Email<span class="colorStar">*</span></label>
+                        <input type="text" id="email" name="email" placeholder="pbyambatogtokh@mum.edu">
+
+                        <label for="phone"><i class="fa fa-phone"></i> Phone Number<span class="colorStar">*</span></label>
+                        <input type="text" id="phone" name="email" placeholder="111-222-333-444">
+                    </div>
+
+                    <div class="col-50">
+                        <h3><ins>Lunch</ins></h3>
+                        <label for="cname">Mail Preference</label>
+                        <!--<input type="text" id="cname" name="cardname" placeholder="John More Doe">-->
+                        <select type="text" id="cname" name="Select"><option>-Select-</option></select><br><br>
+                        <h3><ins>Payment Details</ins></h3>
+
+                        <label for="ccnum">Payment Mode</label>
+                        <input type="checkbox" name="Cash" /> Cash
+                        <input type="checkbox" name="Cheque" /> Cheque
+                        <input type="checkbox" name="DemandDraft" /> Demand Draft <br><br>
+
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+
+                        <label for="dd">DD/Cheque No</label>
+                        <input type="text" id="dd" name="expmonth">
+
+                        <label for="bankname">Drawn On(Bank Name)</label>
+                        <input type="text" id="bankname" name="expmonth">
+
+                        <label for="payable">Payable at</label>
+                        <input type="text" id="payable" name="expmonth">
+
+                    </div>
+
+                </div>
+
+                <input type="submit" value="Reset" class="btn">
+                <input type="submit" value="Submit" class="btn">
+
+<!--                <input type="reset"  />
+                <input type="submit" />-->
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

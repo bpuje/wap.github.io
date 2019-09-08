@@ -38,7 +38,7 @@ function onclickBtn() {
         var tArea = document.getElementById("tArea");
         var size = parseInt(window.getComputedStyle(tArea, null).getPropertyValue("font-size"));
         size = size * 72 / 96;
-        size += 2;
+        size = size + 2;
         tArea.style.fontSize = size + "pt";
     }, 500);
 }

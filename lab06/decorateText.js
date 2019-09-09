@@ -51,7 +51,7 @@ function onchange() {
         tArea.style.fontWeight = "bold";
         tArea.style.color = "green";
         tArea.style.textDecoration = "underline";
-        document.body.style.backgroundImage = "url('horse.jpg')";
+        document.body.style.backgroundImage = "url('hundred-dollar.jpg')";
     } else {
         tArea.style.fontWeight = "normal";
         tArea.style.color = "black";

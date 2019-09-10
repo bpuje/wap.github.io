@@ -43,6 +43,21 @@ function onclickBtn() {
     }, 500);
 }
 
+// function pageLoad(){
+//     document.getElementById("stop").onclick = stopClick;
+// }
+//
+//
+// function stopClick() {
+//     alert("Stoped");
+//     return function () {
+//         alert(" :) ")
+//     }
+//
+// }
+// window.onload = pageLoad;
+
+
 function onchange() {
     "use strict";
     var tArea = document.getElementById("tArea");

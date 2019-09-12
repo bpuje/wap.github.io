@@ -5,9 +5,15 @@ $(function () {
         $('#errors').empty();
         submitFlag = true;
 
-        const street = $('#street').val()
-        const zipcode = $('#zipcode').val()
-        const seat = $('input[name=seats]').val()
+        const name = $('#name').val();
+        const street = $('#street').val();
+        const zipcode = $('#zipcode').val();
+        const seat = $('input[name=seats]').val();
+
+        if(name === ''){
+            $('#errors').append('Name cannot be null <br/>');
+            submitFlag = false;
+        }
 
         if(street === ''){
             $('#errors').append('Street cannot be null<br/>');

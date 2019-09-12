@@ -3,18 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <title>Lab09</title>
-    <h1>Lab 09 - Lab09 - Maze and Prog Exercise</h1>
+    <link href="lab09.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/signup-form.js"></script>
 </head>
 <body>
-    <form>
+<form>
+    <div class="wrapper">
         <div>
-            <label id="name">Name</label>
-            <input id="textField"><br><br>
-            <label id="street">Street</label>
-            <input id="textField2"><br><br>
-            <label id="stateSelect">State</label>
-            <select id="selectOne">Select One</select>
+            <h1>Lab 09 - Ticket booking form</h1>
+            <p>
+                Name:
+                <input type="text" name="name" placeholder="Enter street name" pattern="[a-zA-z]+" title="Must be letter" required>
+            </p>
+
+            <p>
+                <label id="street">Street</label>
+                <input type="text" name="street" id="street2" placeholder="Enter street name">
+            </p>
+            <p>
+                <label id="stateSelect">State</label>
+                <select id="selectMenu" class="required">
+                    <option id="selectOne" selected value="Selected One">Select One</option>
+                    <option>CA</option>
+                    <option>LA</option>
+                    <option>IA</option>
+                </select>
+            </p>
+
+
+            <p>Zip Code:
+                <input type="text" name="zipcode" id="zipcode" pattern="[0-9]{5}" title="Must be 5 digit" required>
+            </p>
+
+
+            <p>
+                <label for="seat">How many seats?</label>
+                <input id="seat" type="text" name="name" type="text" placeholder="Enter seat number">
+            </p>
+
+            <fieldset>
+                <br>
+                <legend id="border1">Which taxi do you require?</legend>
+                <div>
+                    <input type="radio" id="contactChoice1" name="taxi" value="car">
+                    <label for="contactChoice1">Car</label>
+                </div>
+                <br>
+                <div>
+                    <input type="radio" id="contactChoice2" name="taxi" value="van">
+                    <label for="contactChoice2">Van</label>
+                </div>
+                <br>
+                <div>
+                    <input type="radio" id="contactChoice3" name="taxi" value="tuk">
+                    <label for="contactChoice3">Tuk Tuk</label>
+                </div>
+                <span id="taxi-feedback"></span>
+                <br>
+            </fieldset>
+
+
+            <fieldset>
+                <br>
+                <legend id="border2">Extras</legend>
+                <div>
+                    <input type="checkbox" class="checkbox" id="extraChoice1" name="utility" value="seat">
+                    <label for="contactChoice1">Baby Seat</label>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" class="checkbox" id="extraChoice2" name="utility" value="chair">
+                    <label for="contactChoice2">Wheelchair Access</label>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" class="checkbox" id="extraChoice3" name="utility" value="tip">
+                    <label for="contactChoice3">Stock Tip</label>
+                </div>
+                <span id="extra-feedback"></span>
+                <br>
+            </fieldset>
+            <br>
+
+            <label id="textBox">Special Instructions</label>
+            <textarea rows="3" cols="30"></textarea>
+
+            <br><br>
+            <div id="container">
+                <input type="submit" value="Submitbooking">
+            </div>
+
         </div>
-    </form>
+    </div>
+</form>
 </body>
 </html>

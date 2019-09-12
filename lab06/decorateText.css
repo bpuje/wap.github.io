@@ -39,18 +39,15 @@ textarea {
     margin: 5% auto;
 }
 
-.form-area {
-    display: block;
-    background: rgba(0,0,0,0.3);
-    border-radius: 25px;
-    padding: 1.9em;
-}
+/*.form-area {*/
+    /*display: block;*/
+    /*background: rgba(0,0,0,0.3);*/
+    /*border-radius: 25px;*/
+    /*padding: 1.9em;*/
+/*}*/
 
-form{
-    width: 550px;
-    height: 650px;
-}
+/*form{*/
+    /*width: 550px;*/
+    /*height: 650px;*/
+/*}*/
 
-legend{
-
-}

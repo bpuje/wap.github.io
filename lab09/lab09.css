@@ -1,4 +1,14 @@
 
-.selectOne{
-    width: auto;
+.wrapper {
+    width: 600px;
+    margin: 5% auto;
+}
+
+textBox {
+    font-family: monospace;
+    font-size: 12px;
+}
+
+#errors {
+    color: red;
 }

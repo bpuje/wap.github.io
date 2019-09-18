@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9afa9594-2335-4ec2-acee-03abe5e9b6cf" name="Default Changelist" comment="Lab12 of My second try to github">
+      <change afterPath="$PROJECT_DIR$/Aftermid/src/main/java/edu/mum/cs/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aftermid/src/main/java/edu/mum/cs/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aftermid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aftermid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aftermid/src/main/java/edu/mum/cs/QuizApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aftermid/src/main/java/edu/mum/cs/QuizApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aftermid/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Aftermid/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aftermid/target/QuizServlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/Aftermid/target/QuizServlet.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aftermid/target/QuizServlet/WEB-INF/classes/edu/mum/cs/QuizApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Aftermid/target/QuizServlet/WEB-INF/classes/edu/mum/cs/QuizApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aftermid/target/QuizServlet/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Aftermid/target/QuizServlet/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aftermid/target/classes/edu/mum/cs/QuizApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Aftermid/target/classes/edu/mum/cs/QuizApp.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +58,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Aftermid/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -68,7 +81,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aftermid/.idea/misc.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -93,6 +106,7 @@
         <option value="$PROJECT_DIR$/lab09_Form/lab09.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Aftermid/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Aftermid/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -102,10 +116,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1625" />
-    <option name="height" value="907" />
+    <option name="width" value="1280" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -137,6 +151,22 @@
               <item name="Aftermid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Aftermid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wap.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wap.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Aftermid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,7 +207,7 @@
       <updated>1568643104061</updated>
       <workItem from="1568643106444" duration="1703000" />
       <workItem from="1568651953725" duration="1237000" />
-      <workItem from="1568653380501" duration="14359000" />
+      <workItem from="1568653380501" duration="16600000" />
     </task>
     <task id="LOCAL-00001" summary="Lab11">
       <created>1568744738021</created>
@@ -218,13 +248,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17299000" />
+    <option name="totallyTimeSpent" value="19540000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1625" height="907" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2008844" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25686592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -242,7 +273,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32883435" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22748815" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -309,9 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aftermid/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aftermid/Aftermid.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -329,6 +357,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aftermid/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

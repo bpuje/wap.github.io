@@ -8,23 +8,20 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Directive - page, include, taglib</title>
-
-    <span style="color: red; font-size: 12px;"></span>>
-
 </head>
 <body>
+<div>
 <%
     System.out.println("Evaluating date now");
     Date dNow = new Date();
     SimpleDateFormat ft = new SimpleDateFormat("E yyyy.MM.dd'at'hh:mm:ss a zzz");
     System.out.println("Current Date: " + ft.format(dNow));
 %>
-<ct:currentDateTime color="red" size="12px" />
+    <ct:currentDateTime color="red" size="12px" />
 
-Hello! The time is now
-<%=dNow%>
-
+    Hello! The time is now
+    <%=dNow%>
+</div>
 
 </body>
 </html>

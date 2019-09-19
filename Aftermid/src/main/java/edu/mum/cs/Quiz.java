@@ -17,7 +17,6 @@ public class Quiz {
                 new Question("2, 3, 5, 7, 11", "13"),
                 new Question("1, 2, 4, 8, 16", "32")
         );
-        Collections.shuffle(this.questionList);
     }
 
     public String getNextQuestion(){

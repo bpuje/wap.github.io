@@ -11,6 +11,7 @@
 
 <%@ taglib prefix="mytag" uri="/WEB-INF/tld/PjSelect" %>
 <%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
+<ct:currentDateTime color="red" size="12px" />
 <html>
 <body>
     <h1 align="center">Beer Recommendations JSP</h1>
@@ -23,6 +24,10 @@
 
     <mytag:Head thecolor="${color}" words="Puje 986799"></mytag:Head>
 
+
+
+
+    <span style="color: red; font-size: 12px;">Mon 2016.04.04 at 04:14:09 PM PDT</span>
 </body>
 </html>
 

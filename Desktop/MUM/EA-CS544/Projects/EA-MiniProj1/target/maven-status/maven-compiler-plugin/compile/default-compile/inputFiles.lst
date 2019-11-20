@@ -1,0 +1,13 @@
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/controller/IndexController.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/service/StudentService.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/controller/StudentController.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/repository/StudentRepository.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/controller/LoadController.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/batch/DBWriter.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/service/StudentServiceImpl.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/SpringBatch1Application.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/model/Student.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/batch/Processor.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/batch/StudentBatch.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/config/SpringBatchConfig.java
+/Users/user/Desktop/MUM/EA-CS544/Projects/EA-MiniProj1/src/main/java/mum/edu/cs544/student/springbatch1/config/SecurityConfig.java

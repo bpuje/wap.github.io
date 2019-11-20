@@ -1,0 +1,69 @@
+
+
+www.luv2code.com/jackson-databinding-json-demo
+
+
+481 deh dasgaliig hiij uzne
+
+485 - uzej bga
+
+
+input=file:/Users/user/Desktop/MUM/EA - CS544/Labs/Lab1/spring-batch-1/src/main/resources.students.csv
+
+jdbc:h2:~/test
+
+
+
+
+select * from STUDENT;
+
+select * from BATCH_JOB_EXECUTION;
+select * from BATCH_JOB_EXECUTION_CONTEXT;
+
+select * from BATCH_STEP_EXECUTION;
+select * from BATCH_STEP_EXECUTION_CONTEXT;
+
+
+
+udemy - 104 deer yawj bga
+
+--- docker (b064f964468ffff3b2f5ad3c122af475dde6727e46c1118e67148eee81bf1fde)
+954304d22af1d7b635ce18f5613669454bfd218764bdb6df04833d57e7849c0e
+
+
+1. mvn package
+2. docker build -t springbootapp .
+3. docker-compose up -d
+
+
+===========e-commerce (Shopping cart)=============
+
+name, vendor, cateye
+
+Login
+Register
+	- Order
+	- List of Products
+	- Shipping/payment
+
+firstName, lastName, email, prepair shipping address(optional)
+paymentMethod
+	- Payment (Key, Value)
+	- Credit Card
+	- Bank of card
+
+
+- Payment (Key, Value), (Secret(token))
+	- Transcation Credit Card
+	- Transaction Payment
+	- --
+
+#<50=stock>#
+
+====Team===
+1. Identify set Microservice
+2. Isolated (ISO lated) -> safe API
+3. K&S / minikube(IMPORTANT)
+4. service -> 2 instance
+5. Order -> server discovery
+6. Payment - service descusion struct

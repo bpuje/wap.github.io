@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: product-service
+
+server:
+  port: 4451
+
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:4455/eureka/
+  instance:
+    hostname: localhost

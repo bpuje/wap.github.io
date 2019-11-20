@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ship-service
+  labels:
+    app: ship-service
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: ship-service
+    spec:
+      containers:
+        - name: ship-service
+          image: rustembayetov/ship_service
+          ports:
+            - containerPort: 8080
+  selector:
+    matchLabels:
+      app: ship-service

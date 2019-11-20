@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stock-service
+  labels:
+    app: stock-service
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: stock-service
+    spec:
+      containers:
+        - name: stock-service
+          image: rustembayetov/stock_service
+          ports:
+            - containerPort: 8080
+  selector:
+    matchLabels:
+      app: stock-service

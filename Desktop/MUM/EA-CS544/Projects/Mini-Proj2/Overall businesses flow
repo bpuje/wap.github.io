@@ -1,0 +1,72 @@
+Overall businesses flow:
+
+ - User манай катологыг харах боломжтой, гэвч захиалга (to place and order) хийхийн тулд account тай байх ёстой
+ - User login хийгээд дараа нь захиалга (place an order) хийнэ.
+ - Захиалга (Order) ын дараа payment хийнэ
+ - Хэрэв payment амжилттай хийгдвэл(payment was accepted) захиалгыг shipping department руу илгээнэ
+
+ A: OrderService
+ 	- Create Order -> payment service тэй холбогдоно. Payment service хэнтэй ярилцсанаа мэдэхгүй бол PaymentType -с хүсэлт илгээж тодорхойлно.
+
+ B: PaymentService
+ 	- PaymentType is variable
+ 	- payment type нь  зарим TransactionService ын locate дээр суурилагдана
+ 	- This mapping is dynamic and should be fetched via config management
+ 	- PaymentService talks any transaction Service via an API token
+ 	- Token нь secured ба  via Secret management -c авах ёстой
+
+ 	=== Tasks ===
+ 	Энэ асуудал нь micro service architecture ын шийдэл дээр суурилсан байна.
+ 		- micro service-д valid ашиглана
+ 		- Define their APIs and their communication pattern
+ 		- Decide which discovery/Config/Secret management approach you’ll use
+
+
+db-service: 4450
+register-service: 4455 - eureka
+product-service: 4451
+
+
+==============================================================================
+
+
+
+
+ 1. movie-catalog-service 
+ 2. Movie Info service
+ 3. Ratings Data Service
+ 4. Moie catalog service call to other two services (the naive way)
+
+==== STOCK VIEWER ===
+User -
+Web UI
+
+--- create www.spring.io ----
+API Gateway - ZUUL Proxy / Spring Cloud Boot
+Eureka Service (Registry) - Eureka / Spring Cloud + Boot (Dependencies -> Web, Eureka Discovery + ZUUL)
+
+===Services===
+Quote Maintenance - Spring Boot
+DB Service - Spring BOot, JPA (Dependencies - MySQL, Web, JPA)
+Stock Service - Spring Boot (Dependencies - Web, Eureka Discovery)
+
+MySQL
+Yahoo Finance API
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: db-service-app
+  labels:
+    app: db-service-app
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: db-service-app
+    template:
+      metadata:
+        labels:
+          app: db-service-app
+      spec:
+        containers:
+          - name: db-service-app
+            image: puje/db-service-app:latest
+            imagePull/Policy: IfNotPresent
+            ports:
+              - name: http
+                containerPort: 5001
+            resources:
+              limits:
+                cpu: 0.2
+                memory: "200Mi"
+            env:
+              - name: SPRING_DATASOURCE_USERNAME
+                valueFrom:
+                  secretKeyRef:
+                    name: mysql-local-secrets
+                    key: MYSQL_USER
+              - name: SPRING_DATASOURCE_PASSWORD
+                valueFrom:
+                  secretKeyRef:
+                    name: mysql-local-secrets
+                    key: MYSQL_PASSWORD
+              - name: SPRING_DATASOURCE_JDBC-URL
+                valurFrom:
+                  secretKeyRef:
+                    name: mysql-local-secrets
+                    key: MYSQL_URL
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: db-service-app
+  labels:
+    app: db-service-app
+spec:
+  type: LoadBalancer
+  loadBalancerIP: 35.232.181.150
+  selector:
+    app: db-service-app
+  ports:
+    - name: http
+      port: 5001
+      targetPort: 5001

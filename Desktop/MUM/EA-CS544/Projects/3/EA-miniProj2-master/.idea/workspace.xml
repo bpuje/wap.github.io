@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a3b59af-d91b-4444-95e6-0a12a6ad2665" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/eCommerce-db-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce-db-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce-db-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce-db-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce-db-service/src/main/java/mum/edu/cs544/ecommerce/eCommercedbservice/ECommerceDbServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce-db-service/src/main/java/mum/edu/cs544/ecommerce/eCommercedbservice/ECommerceDbServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce-db-service/src/main/java/mum/edu/cs544/ecommerce/eCommercedbservice/resource/AccountResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce-db-service/src/main/java/mum/edu/cs544/ecommerce/eCommercedbservice/resource/AccountResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce-db-service/src/main/java/mum/edu/cs544/ecommerce/eCommercedbservice/resource/OrderResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce-db-service/src/main/java/mum/edu/cs544/ecommerce/eCommercedbservice/resource/OrderResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce-db-service/src/main/java/mum/edu/cs544/ecommerce/eCommercedbservice/resource/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce-db-service/src/main/java/mum/edu/cs544/ecommerce/eCommercedbservice/resource/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce-db-service/src/main/java/mum/edu/cs544/ecommerce/eCommercedbservice/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce-db-service/src/main/java/mum/edu/cs544/ecommerce/eCommercedbservice/resource/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce-db-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce-db-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce-db-service/src/test/java/mum/edu/cs544/ecommerce/eCommercedbservice/ECommerceDbServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce-db-service/src/test/java/mum/edu/cs544/ecommerce/eCommercedbservice/ECommerceDbServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-account-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceaccountservice/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-account-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceaccountservice/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-account-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceaccountservice/resource/AccountResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-account-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceaccountservice/resource/AccountResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/AuthServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/AuthServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/config/JwtRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/config/JwtRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/config/JwtSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/config/JwtSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/config/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/config/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/serviceImpl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/serviceImpl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/serviceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/src/main/java/com/cs544/authservice/authservice/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-auth-service/src/test/java/com/cs544/authservice/authservice/AuthServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-auth-service/src/test/java/com/cs544/authservice/authservice/AuthServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-credit-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-credit-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-credit-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-credit-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-credit-service/src/main/java/com/cs544/creditservice/creditservice/CreditServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-credit-service/src/main/java/com/cs544/creditservice/creditservice/CreditServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-credit-service/src/main/java/com/cs544/creditservice/creditservice/controller/CreditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-credit-service/src/main/java/com/cs544/creditservice/creditservice/controller/CreditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-credit-service/src/main/java/com/cs544/creditservice/creditservice/model/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-credit-service/src/main/java/com/cs544/creditservice/creditservice/model/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-credit-service/src/main/java/com/cs544/creditservice/creditservice/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-credit-service/src/main/java/com/cs544/creditservice/creditservice/model/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-credit-service/src/test/java/com/cs544/creditservice/creditservice/CreditServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-credit-service/src/test/java/com/cs544/creditservice/creditservice/CreditServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceorderservice/EcommerceOrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceorderservice/EcommerceOrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceorderservice/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceorderservice/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceorderservice/resource/OrderResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceorderservice/resource/OrderResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-order-service/src/test/java/mum/edu/cs544/ecommerce/ecommerceorderservice/EcommerceOrderServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-order-service/src/test/java/mum/edu/cs544/ecommerce/ecommerceorderservice/EcommerceOrderServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-product-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-product-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-product-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceproductservice/EcommerceProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-product-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceproductservice/EcommerceProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-product-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceproductservice/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-product-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceproductservice/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-product-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceproductservice/resource/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-product-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceproductservice/resource/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-product-service/src/test/java/mum/edu/cs544/ecommerce/ecommerceproductservice/EcommerceProductServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-product-service/src/test/java/mum/edu/cs544/ecommerce/ecommerceproductservice/EcommerceProductServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-user-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-user-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-user-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceuserservice/EcommerceUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-user-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceuserservice/EcommerceUserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-user-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceuserservice/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-user-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceuserservice/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-user-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceuserservice/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-user-service/src/main/java/mum/edu/cs544/ecommerce/ecommerceuserservice/resource/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce-user-service/src/test/java/mum/edu/cs544/ecommerce/ecommerceuserservice/EcommerceUserServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-user-service/src/test/java/mum/edu/cs544/ecommerce/ecommerceuserservice/EcommerceUserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/mum/edu/cs544/ecommerce/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/mum/edu/cs544/ecommerce/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/mum/edu/cs544/ecommerce/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/test/java/mum/edu/cs544/ecommerce/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$croservice-project.docx" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TLbrN66DGNHiYvdloyVPGL42jp" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a3b59af-d91b-4444-95e6-0a12a6ad2665" name="Default Changelist" comment="" />
+      <created>1573242521339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573242521339</updated>
+      <workItem from="1573242523901" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

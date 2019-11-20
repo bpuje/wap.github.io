@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pays-cc-service
+  labels:
+    app: pays-cc-service
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: pays-cc-service
+    spec:
+      containers:
+        - name: pays-cc-service
+          image: rustembayetov/pays_cc_service
+          ports:
+            - containerPort: 8080
+  selector:
+    matchLabels:
+      app: pays-cc-service

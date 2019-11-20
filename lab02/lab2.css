@@ -1,0 +1,43 @@
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+#container {
+    margin: 20px auto;
+    width: 700px;
+    border: 1px solid #cccccc;
+    background: #b3d4fc;
+    padding: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+p.headertext {
+    font-size: 28px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: darkblue;
+}
+
+span.boldtext {
+    font-weight: bold;
+    color: brown;
+}
+
+.colortext {
+    color: darkblue;
+}
+
+ol li a {
+    color: crimson;
+    font-family: "Courier New";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ol li a:hover {
+    color: #b3d4fc;
+    text-decoration: underline;
+}

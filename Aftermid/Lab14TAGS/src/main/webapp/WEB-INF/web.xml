@@ -1,0 +1,25 @@
+ <!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<!--<web-app>-->
+  <!--<display-name>Archetype Created Web Application</display-name>-->
+<!--</web-app>-->
+
+
+ <web-app>
+  <display-name>Archetype Created Web Application</display-name>
+   <servlet>
+     <servlet-name>Beer Select Page JSP</servlet-name>
+     <servlet-class>edu.mum.cs.BeerSelect</servlet-class>
+   </servlet>
+
+   <servlet-mapping>
+     <servlet-name>Beer Select Page JSP</servlet-name>
+     <url-pattern>/CustomBeer</url-pattern>
+   </servlet-mapping>
+
+   <!--<session-config>-->
+
+   <!--</session-config>-->
+ </web-app>

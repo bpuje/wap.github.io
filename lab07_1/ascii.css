@@ -1,0 +1,80 @@
+body {
+    background: #CCCCFF;
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#mainText {
+    text-align: center;
+}
+
+#teArea {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    font-size: 12pt;
+    font-family: monospace;
+}
+
+#fSets {
+    text-align: center;
+}
+
+fieldset {
+    display: inline;
+    border: 5px solid #000000;
+}
+
+legend {
+    text-align: left;
+}
+
+#validate {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+select {
+    width: 100px;
+}
+
+button {
+    width: 60px;
+}
+
+.tiny {
+    font-size: 7pt !important;
+}
+
+.small {
+    font-size: 10pt !important;
+}
+
+.medium {
+    font-size: 12pt !important;
+}
+
+.large {
+    font-size: 16pt !important;
+}
+
+.extralarge {
+    font-size: 24pt !important;
+}
+
+.xxl {
+    font-size: 32pt !important;
+}
+
+

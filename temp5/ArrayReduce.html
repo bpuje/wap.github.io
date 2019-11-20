@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        JavaScript Array reduce() Method
+    </title>
+</head>
+
+<body style="text-align:center;">
+
+<h2>CS472</h2>
+
+<p>
+    Click here to get the sum
+    of array elements
+</p>
+
+<button onclick="myGeeks()">
+    Click Here!
+</button>
+
+<br><br>
+
+Sum: <span id="GFG"></span>
+
+<!-- Script to use reduce method -->
+<script>
+    var arr = [1.5, 20.3, 11.1, 40.7];
+
+    function sumofArray(sum, num) {
+        return sum + Math.round(num);
+    }
+    function myGeeks(item) {
+        document.getElementById("GFG").innerHTML
+            = arr.reduce(sumofArray, 0);
+    }
+</script>
+</body>
+
+</html>
